@@ -17,4 +17,3 @@ docker build -t cart .
 docker run -p 5001:5001
 ```
 4) Run an instance of mongodb
-   
