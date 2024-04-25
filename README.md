@@ -1,7 +1,7 @@
 # Migrating monolith
 
 To run
-1) Run in Fudgud/frontend:
+1) ## Run in Fudgud/frontend:
   - build docker container
  ```
 docker build -t <docker-username>/frontend:<tag> .
@@ -14,7 +14,7 @@ kubectl apply -f <docker-username>/frontend:<tag>
 ``` 
 docker run -p 3000:3000
  ```
-2) Run in Fudgud/auth:
+2) ## Run in Fudgud/auth:
   - build docker container
  ```
 docker build -t <docker-username>/auth:<tag> .
@@ -27,7 +27,7 @@ kubectl apply -f <docker-username>/auth:<tag>
 ``` 
 docker run -p 5000:5000
  ```
-3) Run in Fudgud/cart:
+3) ## Run in Fudgud/cart:
   - build docker container
  ```
 docker build -t <docker-username>/cart:<tag> .
